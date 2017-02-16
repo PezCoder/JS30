@@ -27,13 +27,14 @@
   }
 
   function playSound(id) {
-      const audioToPlay = `./sounds/${keySounds[id]}.wav`;
-      const audio = new Audio(audioToPlay);
-      audio.play();
+    const audioToPlay = `./sounds/${keySounds[id]}.wav`;
+    const audio = new Audio(audioToPlay);
+    audio.play();
   }
 
-  // when user clicks on the keys
-  function bindClickListenerOnKeys() {
+  // Click on key plays the sound
+  // Make key inactive when transitionend
+  function attachListeners() {
     const keys = document.getElementsByClassName('key');
     for(let i=0; i<keys.length; i++) {
       let key = keys[i];
@@ -57,6 +58,6 @@
     }
   };
 
-  bindClickListenerOnKeys();
+  attachListeners();
 
 }());
