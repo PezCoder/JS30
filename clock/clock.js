@@ -33,6 +33,6 @@
 
   function rotateTheHand(hand, deg) {
     var rotate_from_start = deg + 90 // +90 is default rotation to keep it at 0
-    hand.style.transform = `rotateZ(${rotate_from_start}deg)`;
+    hand.style.transform = `translateY(-50%) rotateZ(${rotate_from_start}deg)`;
   }
 }());
