@@ -95,11 +95,11 @@ body {
 .subheading {
   text-align: center;
   color: #FFEB3B;
-  font-size: 21px;
+  font-size: 15px;
   margin-top: -4px;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 900px) {
   .clock {
     width: 400px;
     height: 400px;
@@ -121,10 +121,5 @@ body {
   .subheading {
     margin-top: -23px;
     font-size: 24px;
-  }
-}
-@media (min-width: 900px) {
-  .subheading br {
-    display: none;
   }
 }
