@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Changing css variables using js</title>
+  <link rel="stylesheet" href="cssVariables.css">
+</head>
+<body>
+  <h1 class="heading">CSS Variables control with <span class="js">JS</span></h1>
+
+  <div class="each-setting">
+    <h3 class="heading">Change these like a freakin maniac !</h3>
+    <input type="range" min="1000" max="10000" step="500" name="atime" value="3000" data-suffix="ms" />
+    <label>Animation Time</label>
+  </div>
+
+  <div class="each-setting">
+    <input type="color" name="bgcolor" value="#3e5c90" />
+    <label>Base Color</label>
+  </div>
+
+  <div class="each-setting">
+    <input type="color" name="accent-color" value="#CDDC39" />
+    <label>Accent Color</label>
+  </div>
+
+  <div class="box box1">
+    <div class="ball ball1"></div>
+  </div>
+  <div class="box box2">
+    <div class="ball ball2"></div>
+  </div>
+  <div class="box box3">
+    <div class="ball ball3"></div>
+  </div>
+  <script src="cssVariables.js"></script>
+</body>
+</html>
