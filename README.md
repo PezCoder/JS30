@@ -12,3 +12,6 @@ Build 30 vanilla JS apps in 30 days
 
 #### 04 Array Cardio (filter, reduce, from, map, sort)
 ![Array Cardio](./screens/arrayCardio.png)
+
+#### 05 Flex gallery
+![Array Cardio](./screens/flexGallery.gif)
