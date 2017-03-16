@@ -1,0 +1,96 @@
+@font-face {
+  font-family: ClickerScript;
+  src: url(Clicker_Script/ClickerScript-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(128deg, #1a285a, #bdaa4f);
+  font-family: 'ClickerScript', cursive;
+}
+
+.heading {
+  margin-right: 17%;
+  font-size: 86px;
+  color: white;
+  text-align: center;
+  font-weight: light;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.folder {
+  width: 400px;
+  height: 400px;
+  display: block;
+  position: relative;
+  display: flex;
+  perspective: 1000px;
+}
+
+.folder .image {
+  overflow: hidden;
+  flex-grow: 1;
+  transition: all 0.5s ease-in-out;
+
+  border: 1px solid #eaeaea;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  transform: rotateX(-10deg) rotateY(23deg);
+  box-shadow: white 0px 0px 6px 1px;
+}
+
+.folder .image:hover {
+  flex-grow: 3;
+  transform: rotateX(0deg) rotateY(0deg);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.image:nth-child(2) {
+  left: 20px;
+  top: 20px;
+  transform: rotateX(-10deg) rotateY(23deg);
+}
+
+.image:nth-child(3) {
+  left: 40px;
+  top: 40px;
+  transform: rotateX(-10deg) rotateY(23deg);
+}
+
+.image-text {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: -100%;
+  transition: all 0.2s ease;
+}
+
+.image-text.animate {
+  top: 0;
+}
+
+.dwayne-1 {
+  background-image: url(./dwayne-1.jpg);
+}
+
+.dwayne-2 {
+  background-image: url(./dwayne-2.jpg);
+}
+
+.dwayne-3 {
+  background-image: url(./dwayne-3.jpg);
+}
