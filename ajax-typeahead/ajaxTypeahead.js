@@ -3,8 +3,8 @@ const API_URL = "https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb2
 let cities = [];
 fetch(API_URL)
   .then(data => data.json())
-  .then(cities => {
-    cities = cities;
+  .then(apiCities => {
+    cities = apiCities;
   });
 
 function findPlaces(toSearch, places) {
