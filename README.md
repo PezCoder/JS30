@@ -17,4 +17,4 @@ Build 30 vanilla JS apps in 30 days
 ![Flex gallery](./screens/flexGallery.gif)
 
 #### 06 Canvas Drawing
-![Array Cardio](./screens/drawing.gif)
+![Canvas drawing](./screens/canvas_draw.gif)
