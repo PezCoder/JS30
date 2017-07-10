@@ -18,3 +18,6 @@ Build 30 vanilla JS apps in 30 days
 
 #### 06 Canvas Drawing
 ![Canvas drawing](./screens/canvas_draw.gif)
+
+#### 07 Shift checkboxes
+![Shift checkboxes](./screens/shift-checkbox.gif)
