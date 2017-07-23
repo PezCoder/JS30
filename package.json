@@ -1,0 +1,23 @@
+{
+  "name": "js30",
+  "version": "1.0.0",
+  "description": "Build 30 vanilla JS apps in 30 days",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PezCoder/JS30.git"
+  },
+  "author": "Rahul Gupta <rahul11061995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PezCoder/JS30/issues"
+  },
+  "homepage": "https://github.com/PezCoder/JS30#readme"
+}
