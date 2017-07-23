@@ -8,7 +8,7 @@ Build 30 vanilla JS apps in 30 days
 ![Clock](./screens/clock.png)
 
 #### 03 CSS Variables (animation control)
-![Css Variables](./screens/css-variables.gif)
+![Css Variables](./screens/cssVariables.gif)
 
 #### 04 Array Cardio (filter, reduce, from, map, sort)
 ![Array Cardio](./screens/arrayCardio.png)
@@ -17,7 +17,10 @@ Build 30 vanilla JS apps in 30 days
 ![Flex gallery](./screens/flexGallery.gif)
 
 #### 06 Canvas Drawing
-![Canvas drawing](./screens/canvas_draw.gif)
+![Canvas drawing](./screens/canvasDraw.gif)
 
 #### 07 Shift checkboxes
-![Shift checkboxes](./screens/shift-checkbox.gif)
+![Shift checkboxes](./screens/shiftCheckbox.gif)
+
+#### 08 Audio Player
+![Audio Player](./screens/audioPlayer.gif)

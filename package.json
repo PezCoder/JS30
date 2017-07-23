@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Build 30 vanilla JS apps in 30 days",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "typeface-fira-mono": "0.0.31"
+  },
   "devDependencies": {
     "font-awesome": "^4.7.0"
   },
